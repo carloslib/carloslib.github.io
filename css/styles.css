@@ -140,7 +140,33 @@ a {
   float: none;
   margin: 0 auto;
   text-align: center; }
-
+  .home-photo {
+    /* display: block; */
+    position: relative;
+     width: 90%; 
+    /* padding-bottom: calc(100% - 36px); */
+    background-color: #fff;
+    border-radius: 1000px;
+    border: 18px solid #fff;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+  }
+  .home-photo .hp-inner {
+  background-image: url(images/hero.jpg);
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: auto;
+  display: block;
+  /* position: absolute; */
+  top: -18px;
+  bottom: -18px;
+  width: auto;
+  left: -18px;
+  right: -18px;
+}
 /**
  * ---------------------
  *  Defult Halping Class
